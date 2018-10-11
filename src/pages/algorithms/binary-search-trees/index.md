@@ -8,6 +8,7 @@ A tree is a data structure composed of nodes that has the following characterist
 1. Each tree has a root node (at the top) having some value.
 2. The root node has zero or more child nodes.
 3. Each child node has zero or more child nodes, and so on. This create a subtree in the tree. Every node has it's own subtree made up of his children and their children, etc. This means that every node on its own can be a tree.
+4.A tree does not have cycles or self loops.
 
 A binary search tree (BST) adds these two characteristics:
 1. Each node has a maximum of up to two children.
